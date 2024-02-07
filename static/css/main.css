@@ -11,15 +11,20 @@ body {
     display: flex;
     flex-direction: column;
     background-color: black;
+    background-image: url("../s1g.jpeg");
+    background-repeat: no-repeat;
 }
 header {
-    height: 75px;
+    height: 200px;
+    opacity: 50%;
 }
 main {
     flex: auto;
     background-color: #ccc;
     width: 800px;
     margin: 0 auto;
+    padding: 10px;
+    overflow-y: scroll;
 }
 footer {
     height: 25px;
