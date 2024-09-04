@@ -11,6 +11,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+#language_menu {
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
 header {
     height: 100px;
     opacity: 80%;
