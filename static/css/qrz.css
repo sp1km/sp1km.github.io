@@ -11,6 +11,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+p, ol, ul {
+    margin: 10px 0px;
+}
 #language_menu {
     font-size: 30px;
     display: block;
